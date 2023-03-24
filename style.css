@@ -1,5 +1,5 @@
 body {
-  max-width: 1062px;z-index: z;
+  max-width: 1062px;
   width: 100%;
   margin: auto;
   background: url("pc4.jpg") no-repeat center;
@@ -87,8 +87,8 @@ body {
   cursor: pointer;
 }
 .button-order:hover{
-  background-color: #f09968;
-  color: #f77d36;
+  background-color: #f0502c;
+  color: #ffffff;
 }
 .main {
   max-width: 700px;
