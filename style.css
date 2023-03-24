@@ -1,0 +1,97 @@
+body {
+  max-width: 1062px;z-index: z;
+  width: 100%;
+  margin: auto;
+  background: url("pc4.jpg") no-repeat center;
+  background-attachment: fixed;
+  background-size: 99%;
+  color: #f7f3f3;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 24px;
+  margin-bottom: 150px;
+}
+.logo {
+  height: 120px;
+  width: 100%; 
+  max-width: 180px;
+  margin: auto; 
+  position:relative;
+  border:1px solid none;
+  width:150px;
+  height:150px;
+  overflow:hidden;
+  padding: 0px;
+  position:absolute;
+  left:85%;
+  top:-10px;
+}
+.slogo{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90%;
+
+}
+.menu-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 150px;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.5rem;
+  -webkit-text-stroke-width: 0.4px;
+-webkit-text-stroke-color: rgb(20, 19, 19);
+}
+
+.active {
+  font-weight: bold;
+}
+
+.main-text {
+  font-weight: 500;
+  font-size: 53px;
+  line-height: 62px;
+  margin-left: 40px;
+  vertical-align:middle;
+  margin-bottom: 0px;
+}
+
+.quote {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  opacity: 0.7;
+  min-width: 100%;
+}
+
+.button-order {
+  all: unset;
+  background: #f6762c;
+  border-radius: 5px;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 19px;
+  padding: 17px 45px;
+  margin-left: 75%;
+  margin-top: 1%;
+}
+
+.main {
+  max-width: 700px;
+  margin-left: 60%;
+-webkit-text-stroke-width: 0.3px;
+-webkit-text-stroke-color: rgb(20, 19, 19);
+font-size: 20px;
+}
+div {
+  outline: 2px solid none; }
