@@ -97,5 +97,15 @@ body {
 -webkit-text-stroke-color: rgb(20, 19, 19);
 font-size: 20px;
 }
-div {
-  outline: 2px solid none; }
+
+@media screen and  (max-width: 768px) {
+    .card {
+         width: 50%; 
+         max-width: 100%;
+         margin: auto auto 10px;
+    }}
+     @media screen and   (max-width: 480px) {
+    .card {
+         width: 95%; 
+    }}div {
+      outline: 2px solid none; } /* Смотреть границы дива */
